@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0f106fa-9c32-4a33-9c61-f00ea8378bb6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_12_2023_17_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27_12_2023_17_25__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CreateQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreateQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Жопа" />
     <MESSAGE value="Рабочие кнопки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Рабочие кнопки" />
+    <MESSAGE value="Никто не прыгает" />
+    <option name="LAST_COMMIT_MESSAGE" value="Никто не прыгает" />
   </component>
 </project>

@@ -32,7 +32,23 @@ public class CreateQueue extends JPanel {
         jp.add(cancelButton);
         frame.getContentPane().add(BorderLayout.NORTH, jp);
         frame.getContentPane().add(BorderLayout.CENTER, jpButton);
-        frame.setVisible(true);
+        createButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+//                    Frame frame = findActiveFrame();
+//                    if (frame!=null){
+//                        frame.removeAll();
+                MainPage main = new MainPage();
+                jp.removeAll();
+                jp.add(main);
+                jp.revalidate();
+                jp.repaint();
+//                        frame.revalidate();
+//                        frame.repaint();
+//                    }
+            }
+        });
+        add(jp);
 
 
 /*
