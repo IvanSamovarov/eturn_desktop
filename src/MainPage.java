@@ -19,18 +19,20 @@ public class MainPage extends JPanel {
     public MainPage() {
         setLayout(new BorderLayout());
         JPanel jp = new JPanel();
-        jp.setLayout(new GridLayout(0, 2));
+        jp.setLayout(new BoxLayout(jp, BoxLayout.Y_AXIS));
         JButton jb = new JButton("Создать очередь");
-        jb.setBounds(5, 5, 100, 30);
         jp.add(jb);
+        JLabel label1 = new JLabel("Test");
+        label1.setText("Label Text");
+        jp.add(label1);
         jb.addActionListener(new ActionListener() {
             @Override
                 public void actionPerformed(ActionEvent e) {
 //                    Frame frame = findActiveFrame();
 //                    if (frame!=null){
 //                        frame.removeAll();
-                        CreateQueue create = new CreateQueue();
                         jp.removeAll();
+                        CreateQueue create = new CreateQueue();
                         jp.add(create);
                         jp.revalidate();
                         jp.repaint();

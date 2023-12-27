@@ -17,7 +17,7 @@ public class MyPanel extends JPanel {
         // сеточная растановка в два столбца
         // много строк
         JPanel jp = new JPanel();
-        jp.setLayout(new GridLayout(0, 2));
+        jp.setLayout(new BoxLayout(jp, BoxLayout.Y_AXIS));
         JButton jb;
         JComboBox cb = new JComboBox(items);
         jp.add(cb);

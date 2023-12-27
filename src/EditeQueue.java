@@ -7,7 +7,7 @@ public class EditeQueue extends JPanel{
     public EditeQueue() {
         setLayout(new BorderLayout());
         JPanel jp = new JPanel();
-        jp.setLayout(new GridLayout(0, 2));
+        jp.setLayout(new BoxLayout(jp, BoxLayout.Y_AXIS));
         JButton jb = new JButton("Сохранить");
         jp.add(jb);
         jb.addActionListener(new ActionListener() {

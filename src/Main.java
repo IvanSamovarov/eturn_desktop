@@ -16,10 +16,11 @@ public class Main extends JFrame {
         // добавляем какие-нибудь дочерние элементы
         //MyComponent child = new MyComponent();
         MyPanel child= new MyPanel();
-        MainPage page = new MainPage();
+        MainPage main = new MainPage();
         CreateQueue create = new CreateQueue();
         Login log = new Login();
-        c.add(log);
+        EditeQueue edit = new EditeQueue();
+        c.add(main);
         // -------------------------------------------
         // настройка окна
         setTitle("Example window"); // заголовок окна

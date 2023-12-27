@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0f106fa-9c32-4a33-9c61-f00ea8378bb6" name="Changes" comment="Жопа">
+    <list default="true" id="d0f106fa-9c32-4a33-9c61-f00ea8378bb6" name="Changes" comment="Рабочие кнопки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreateQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreateQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EditeQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EditeQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.java" afterDir="false" />
     </list>
@@ -77,7 +74,7 @@
       <updated>1702992023781</updated>
       <workItem from="1702992026446" duration="723000" />
       <workItem from="1703563272814" duration="41000" />
-      <workItem from="1703575162455" duration="16397000" />
+      <workItem from="1703575162455" duration="18388000" />
     </task>
     <task id="LOCAL-00001" summary="Жопа">
       <option name="closed" value="true" />
@@ -87,7 +84,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703622816323</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Рабочие кнопки">
+      <option name="closed" value="true" />
+      <created>1703687091466</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703687091466</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Жопа" />
-    <option name="LAST_COMMIT_MESSAGE" value="Жопа" />
+    <MESSAGE value="Рабочие кнопки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Рабочие кнопки" />
   </component>
 </project>
