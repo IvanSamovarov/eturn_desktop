@@ -18,7 +18,8 @@ public class Main extends JFrame {
         MyPanel child= new MyPanel();
         MainPage page = new MainPage();
         CreateQueue create = new CreateQueue();
-        c.add(page);
+        Login log = new Login();
+        c.add(log);
         // -------------------------------------------
         // настройка окна
         setTitle("Example window"); // заголовок окна

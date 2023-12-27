@@ -5,7 +5,6 @@ import javax.swing.*;
 public class MainPage extends JPanel {
     private static final long serialVersionUID = 2L;
 
-
     private Frame findActiveFrame() {
         Frame[] frames = JFrame.getFrames();
         for (int i = 0; i < frames.length; i++) {
@@ -14,7 +13,7 @@ public class MainPage extends JPanel {
             }
         }
         return null;
-    }
+    } // ищет текущий фрэйм, который работает сейсчас
 
 
     public MainPage() {
@@ -22,6 +21,7 @@ public class MainPage extends JPanel {
         JPanel jp = new JPanel();
         jp.setLayout(new GridLayout(0, 2));
         JButton jb = new JButton("Создать очередь");
+        jb.setBounds(5, 5, 100, 30);
         jp.add(jb);
         jb.addActionListener(new ActionListener() {
             @Override

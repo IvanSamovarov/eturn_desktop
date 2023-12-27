@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0f106fa-9c32-4a33-9c61-f00ea8378bb6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/eturn_desktop/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreateQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EditeQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d0f106fa-9c32-4a33-9c61-f00ea8378bb6" name="Changes" comment="Жопа">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreateQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreateQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EditeQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EditeQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +77,17 @@
       <updated>1702992023781</updated>
       <workItem from="1702992026446" duration="723000" />
       <workItem from="1703563272814" duration="41000" />
-      <workItem from="1703575162455" duration="12400000" />
+      <workItem from="1703575162455" duration="16397000" />
     </task>
+    <task id="LOCAL-00001" summary="Жопа">
+      <option name="closed" value="true" />
+      <created>1703622816323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703622816323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Жопа" />
+    <option name="LAST_COMMIT_MESSAGE" value="Жопа" />
   </component>
 </project>
