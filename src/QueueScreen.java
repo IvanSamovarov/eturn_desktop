@@ -31,7 +31,6 @@ public class QueueScreen extends JFrame
         deleteButton = new JButton("Delete");
 
         JPanel buttonPanel = new JPanel();
-        buttonPanel.add(editButton);
         buttonPanel.add(deleteButton);
 
         setLayout(new BorderLayout());
