@@ -20,7 +20,7 @@ public class Main extends JFrame {
         CreateQueue create = new CreateQueue();
         Login log = new Login();
         EditeQueue edit = new EditeQueue();
-        c.add(main);
+        c.add(log);
         // -------------------------------------------
         // настройка окна
         setTitle("Example window"); // заголовок окна

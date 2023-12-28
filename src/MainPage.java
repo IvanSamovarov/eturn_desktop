@@ -26,6 +26,8 @@ public class MainPage extends JPanel {
         jp.setLayout(new BoxLayout(jp, BoxLayout.Y_AXIS));
         JButton jb = new JButton("Создать очередь");
         jp.add(jb);
+        JButton exitButton = new JButton("Выйти");
+        jp.add(exitButton);
 
         ArrayList<String> name_list = new ArrayList<>(); // Массив, где лежит ФИО, статус и группа
         name_list.add("Самоваров Иван");
@@ -45,6 +47,8 @@ public class MainPage extends JPanel {
         label1.setText(text); // Вывожу эту переменную
         jp.add(label2);
         jp.add(label1);
+        JLabel label5 = new JLabel(" ");
+        jp.add(label5);
         JLabel label3 = new JLabel("ОЧЕРЕДИ:");
         jp.add(label3);
         List<Turn> allQueue = new ArrayList<>();
@@ -52,44 +56,45 @@ public class MainPage extends JPanel {
         Turn turn2 = new Turn(1, "ТОЭ", "Попа", "Купова", 1, 17);
         allQueue.add(turn);
         allQueue.add(turn2);
-//        ArrayList<String> queue_list = new ArrayList<>(); // Список с очередями
-//        queue_list.add("Сдача ТОЭ"); // Незнаю, насколько правильно, но пока вся
-//        queue_list.add("Купова А.В.");  // информация об очереди в одном массиве
-//        queue_list.add("143");          // Как будто бы похрен?
-//        allQueue.add(queue_list);
-//
-//        ArrayList<String> queue_list1 = new ArrayList<>();
-//        queue_list1.add("Eturn");
-//        queue_list1.add("Васильев А.А.");
-//        queue_list1.add("10");
-//        allQueue.add(queue_list1);
 
-//        for (int i = 0; i < allQueue.size(); i++) {
-//            text = ""; // Запихиваю данные из массива в одну переменную
-//            for (int j = 0; j < allQueue.get(i).size(); j++) {
-//                text = text + allQueue.get(i).get(j);
-//                if (j < allQueue.get(i).size() - 2) {
-//                    text = text + ", ";
-//                }
-//            }
         for (Turn i: allQueue) {
+            text = "";
+            text = "НАЗВАНИЕ: " + i.getName() + "    СОЗДАТЕЛЬ: " + i.getCreator() + "    ОПИСАНИЕ: " + i.getDescription() + "    КОЛИЧЕСТВО УЧАСТНИКОВ: " + i.getCountUsers() + " человек";
             JLabel label4 = new JLabel();
-            label4.setText(i.getName());
+            label4.setText(text);
+            label4.addMouseListener(new MouseAdapter() {
+                @Override
+                public void mouseClicked(MouseEvent e) {
+                    jp.removeAll();
+                    EditeQueue edite = new EditeQueue();
+                    jp.add(edite);
+                    jp.revalidate();
+                    jp.repaint();
+                }
+            });
             jp.add(label4);
+            add(jp);
         }
-//        JLabel label4 = new JLabel();
-//        label4.setText(text);
-//        jp.add(label4);
         jb.addActionListener(new ActionListener() {
             @Override
                 public void actionPerformed(ActionEvent e) {
-                        jp.removeAll();
-                        CreateQueue create = new CreateQueue();
-                        jp.add(create);
-                        jp.revalidate();
-                        jp.repaint();
+                    jp.removeAll();
+                    CreateQueue create = new CreateQueue();
+                    jp.add(create);
+                    jp.revalidate();
+                    jp.repaint();
                 }
         });
         add(jp);
+        exitButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                jp.removeAll();
+                Login log = new Login();
+                jp.add(log);
+                jp.revalidate();
+                jp.repaint();
+            }
+        });
     }
 }

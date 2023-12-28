@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0f106fa-9c32-4a33-9c61-f00ea8378bb6" name="Changes" comment="Никто не прыгает">
-      <change afterPath="$PROJECT_DIR$/src/Entity/Turn.java" afterDir="false" />
+    <list default="true" id="d0f106fa-9c32-4a33-9c61-f00ea8378bb6" name="Changes" comment="Да, да, я забыл запушить то, что мы с Андреем наделали. Лучше поздно, чем никогда">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreateQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreateQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703711230903</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Да, да, я забыл запушить то, что мы с Андреем наделали. Лучше поздно, чем никогда">
+      <option name="closed" value="true" />
+      <created>1703722399725</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703722399725</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +142,7 @@
     <MESSAGE value="Жопа" />
     <MESSAGE value="Рабочие кнопки" />
     <MESSAGE value="Никто не прыгает" />
-    <option name="LAST_COMMIT_MESSAGE" value="Никто не прыгает" />
+    <MESSAGE value="Да, да, я забыл запушить то, что мы с Андреем наделали. Лучше поздно, чем никогда" />
+    <option name="LAST_COMMIT_MESSAGE" value="Да, да, я забыл запушить то, что мы с Андреем наделали. Лучше поздно, чем никогда" />
   </component>
 </project>
