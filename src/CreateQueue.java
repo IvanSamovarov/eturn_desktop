@@ -35,47 +35,23 @@ public class CreateQueue extends JPanel {
         createButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-//                    Frame frame = findActiveFrame();
-//                    if (frame!=null){
-//                        frame.removeAll();
-                MainPage main = new MainPage();
+                EditeQueue edite = new EditeQueue();
                 jp.removeAll();
-                jp.add(main);
+                jp.add(edite);
                 jp.revalidate();
                 jp.repaint();
-//                        frame.revalidate();
-//                        frame.repaint();
-//                    }
             }
         });
         add(jp);
-
-
-/*
-        setLayout(new BorderLayout());
-        JPanel jp = new JPanel();
-        jp.setLayout(new BoxLayout(jp, BoxLayout.Y_AXIS));
-        JButton jb = new JButton("Создать");
-        jp.add(jb);
-
-
-        jb.addActionListener(new ActionListener() {
+        cancelButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-//                    Frame frame = findActiveFrame();
-//                    if (frame!=null){
-//                        frame.removeAll();
                 MainPage main = new MainPage();
                 jp.removeAll();
                 jp.add(main);
                 jp.revalidate();
                 jp.repaint();
-//                        frame.revalidate();
-//                        frame.repaint();
-//                    }
             }
         });
-        add(jp);
-         */
     }
 }

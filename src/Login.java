@@ -13,17 +13,11 @@ public class Login extends JPanel{
         jb.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-//                    Frame frame = findActiveFrame();
-//                    if (frame!=null){
-//                        frame.removeAll();
                 MainPage main = new MainPage();
                 jp.removeAll();
                 jp.add(main);
                 jp.revalidate();
                 jp.repaint();
-//                        frame.revalidate();
-//                        frame.repaint();
-//                    }
             }
         });
         add(jp);
